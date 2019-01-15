@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": false,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "10.0.0.33",
+  "port": "22938",
+  "target": "/home/dan/flask_vue_v0/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "dan",
+  "keyfile": "C:\\Users\\Dan\\Documents\\Computer Stuff\\private_key.ppk",
+  "watch": [],
+  "transport": "scp"
+}
