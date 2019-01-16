@@ -15,7 +15,8 @@
     Input value: <span v-text="input_val"></span>
   </div>
   <button class="btn btn-primary" v-on:click="counter++">You've clicked this
-    button {{ counter }} times!</button>
+    button {{ counter }} times!
+  </button>
   <h2>Essential Links</h2>
   <ul>
     <li>
