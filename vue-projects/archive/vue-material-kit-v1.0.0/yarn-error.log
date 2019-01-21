@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/dan/.pyenv/plugins/pyenv-virtualenv/shims:/home/dan/.pyenv/shims:/home/dan/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Intel/iCLS Client:/mnt/c/Program Files/Intel/iCLS Client:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Git/git-cmd.exe:/mnt/c/Program Files/OpenVPN/bin:/mnt/c/Users/Dan/selenium/geckodriver.exe:/mnt/c/Users/Dan/selenium/chromedriver.exe:/mnt/c/Users/Dan/selenium:/mnt/c/Program Files/nodejs:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Users/Dan/Anaconda2:/mnt/c/Program Files/Git/bin/git.exe:/mnt/c/Program Files/Git/cmd/git.exe:/mnt/c/Users/Dan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Dan/AppData/Local/atom/bin:/mnt/c/Users/Dan/AppData/Roaming/npm:/mnt/c/Program Files/Git/bin:/mnt/c/Users/Dan/AppData/Local/Microsoft/WindowsApps:/snap/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/dan/.cache/yarn/v4/npm-os-locale-3.1.0-a802a6ee17f24c10483ab9935719cef4ed16bf1a/node_modules/os-locale/package.json' -> '/mnt/d/github/webdev/vue-projects/vue-material-kit-v1.0.0/node_modules/yargs/node_modules/os-locale/package.json'
+
+npm manifest: 
+  {
+    "name": "vue-material-kit",
+    "author": "Dragos Ct <dragos@creative-tim.com>",
+    "description": "Vue Material Kit",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint",
+      "dev": "npm run serve",
+      "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run dev"
+    },
+    "dependencies": {
+      "nouislider": "11.1.0",
+      "v-tooltip": "2.0.0-rc.33",
+      "vue": "2.5.17",
+      "vue-carousel": "0.13.1",
+      "vue-clickaway": "2.2.2",
+      "vue-lazyload": "1.2.6",
+      "vue-material": "1.0.0-beta-10.2",
+      "vue-router": "3.0.1"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "3.0.1",
+      "@vue/cli-plugin-eslint": "3.0.1",
+      "@vue/cli-service": "3.0.1",
+      "@vue/eslint-config-prettier": "3.0.1",
+      "node-sass": "4.9.3",
+      "sass-loader": "7.1.0",
+      "vue-template-compiler": "2.5.17"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
