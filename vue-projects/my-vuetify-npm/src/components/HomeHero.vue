@@ -1,7 +1,10 @@
 <template>
   <v-container fluid fill-height class="home-hero" style="max-height: 100vh;">
     <v-layout justify-center align-center column pa-5>
-      <div class="display-4 font-weight-black white--text text-xs-center">
+      <div
+        class="font-weight-black white--text text-xs-center"
+        style="font-size: 10vw;"
+      >
         HEALTHY MEALS
       </div>
       <div class="display-4 font-weight-black white--text text-xs-center mb-3">
@@ -13,7 +16,7 @@
       </div>
       <v-btn
         fab
-        class="mt-5 brown darken-4"
+        class="hidden-sm-and-down mt-5 brown darken-4"
         @click="$vuetify.goTo('#home-details', { offset: -5 })"
       >
         <v-icon large color="white">expand_more</v-icon>
@@ -30,7 +33,7 @@ export default {
 
 <style scoped>
 .home-hero {
-  background: url('http://source.unsplash.com/0BhSKStVtdM');
+  background: url('../assets/home_hero_background.jpg');
   background-size: cover;
   width: 100%;
   height: 100%;
