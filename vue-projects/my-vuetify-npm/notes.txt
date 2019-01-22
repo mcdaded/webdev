@@ -21,4 +21,7 @@ https://www.smashingmagazine.com/2017/05/fluid-responsive-typography-css-poly-fl
 
 I ended up with the style vw modifier which was cool but I think I prefer using
 the header modifiers because it makes everything a bit easier to make responsive.
- 
+
+Scrolling
+https://dev.to/napoleon039/the-lesser-known-amazing-things-vuerouter-can-do-25di
+https://router.vuejs.org/guide/advanced/scroll-behavior.html#async-scrolling
