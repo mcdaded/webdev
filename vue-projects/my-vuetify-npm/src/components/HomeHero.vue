@@ -7,8 +7,8 @@
       >
         HEALTHY MEALS
       </div>
-      <div class="display-4 font-weight-black white--text text-xs-center mb-3">
-        FOR YOUR TABLE
+      <div class="font-weight-black white--text text-xs-center mb-3">
+        <h1>FOR YOUR TABLE</h1>
       </div>
       <div class="display-1 font-weight-bold white--text text-xs-center">
         Finally be a foodie at home with fresh, chef-prepared meals delivered
@@ -37,5 +37,24 @@ export default {
   background-size: cover;
   width: 100%;
   height: 100%;
+}
+
+h1 {
+  font-size: 34px;
+}
+@media (min-width: 576px) {
+  h1 {
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: 34px;
+  }
 }
 </style>

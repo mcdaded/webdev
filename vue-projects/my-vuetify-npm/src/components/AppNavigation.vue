@@ -30,6 +30,7 @@
         <v-toolbar-title to="/">{{ appTitle }}</v-toolbar-title>
       </router-link>
       <v-btn flat class="hidden-sm-and-down" to="/menu">Menu</v-btn>
+      <v-btn flat class="hidden-sm-and-down" to="/#home-details">Details</v-btn>
       <v-spacer class="hidden-sm-and-down"></v-spacer>
       <div v-if="!isAuthenticated" class="hidden-sm-and-down">
         <v-btn flat to="/sign-in">SIGN IN</v-btn>
@@ -53,7 +54,8 @@ export default {
       items: [
         { title: 'Menu', icon: 'dashboard', to: '/menu' },
         { title: 'Sign In', icon: 'account_box', to: '/sign-in' },
-        { title: 'Join', icon: 'create', to: '/join' }
+        { title: 'Join', icon: 'create', to: '/join' },
+        { title: 'Home Details', icon: 'view_list', to: '/#home-details' }
       ]
     };
   },
