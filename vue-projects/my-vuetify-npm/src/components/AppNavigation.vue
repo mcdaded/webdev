@@ -30,7 +30,9 @@
         <v-toolbar-title to="/">{{ appTitle }}</v-toolbar-title>
       </router-link>
       <v-btn flat class="hidden-sm-and-down" to="/menu">Menu</v-btn>
-      <v-btn flat class="hidden-sm-and-down" to="/#home-details">Details</v-btn>
+      <router-link to="/#home-details">
+        <v-btn flat class="hidden-sm-and-down">Details</v-btn>
+      </router-link>
       <v-spacer class="hidden-sm-and-down"></v-spacer>
       <div v-if="!isAuthenticated" class="hidden-sm-and-down">
         <v-btn flat to="/sign-in">SIGN IN</v-btn>

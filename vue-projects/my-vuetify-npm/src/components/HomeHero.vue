@@ -40,16 +40,18 @@ export default {
 }
 
 h1 {
-  font-size: 34px;
+  font-size: 44px;
+  padding: 50;
 }
 @media (min-width: 576px) {
   h1 {
-    font-size: 22px;
+    font-size: 50px;
   }
 }
 @media (min-width: 768px) {
   h1 {
-    font-size: 24px;
+    font-size: 50px;
+    padding: 5;
   }
 }
 @media (min-width: 992px) {
