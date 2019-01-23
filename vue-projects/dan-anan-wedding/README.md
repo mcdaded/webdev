@@ -1,4 +1,24 @@
 # dan-anan-wedding
+-------------------
+
+Build for personal wedding site made with Vue.js and Vuetify.
+
+Created by running the following
+
+```
+vue create dan-anan-wedding
+```
+
+Selected manual configuration and set up vue-router, linter, vuex (though i dont need this)
+
+Then added vuetify with
+
+```
+vue add vuetify
+```
+
+
+-----------------
 
 ## Project setup
 ```

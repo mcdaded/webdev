@@ -27,13 +27,13 @@
 
 <script>
 export default {
-  name: 'HomeHero'
+  name: 'HomeHero',
 };
 </script>
 
 <style scoped>
 .home-hero {
-  background: url('../assets/home_hero_background.jpg');
+  /* background: url('../assets/home_hero_background.jpg'); */
   background-size: cover;
   width: 100%;
   height: 100%;
