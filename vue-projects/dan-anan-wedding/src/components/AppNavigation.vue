@@ -27,10 +27,10 @@
       ></v-toolbar-side-icon>
       <v-layout justify-center align-center>
         <v-spacer class="hidden-md-and-up"></v-spacer>
+        <v-btn flat class="hidden-sm-and-down" to="/menu">Menu</v-btn>
         <router-link to="/">
           <v-toolbar-title to="/">{{ appTitle }}</v-toolbar-title>
         </router-link>
-        <v-btn flat class="hidden-sm-and-down" to="/menu">Menu</v-btn>
         <router-link to="/#home-details">
           <v-btn flat class="hidden-sm-and-down">Details</v-btn>
         </router-link>
