@@ -3,6 +3,7 @@ import './plugins/vuetify';
 import App from './App.vue';
 import router from './router';
 import store from './store';
+// import '@font-awesome/css/font-awesome.min.css'
 
 Vue.config.productionTip = false;
 
@@ -19,4 +20,5 @@ new Vue({
     success: '#4CAF50',
     warning: '#FB8C00',
   },
+  iconfont: 'fa4',
 }).$mount('#app');
