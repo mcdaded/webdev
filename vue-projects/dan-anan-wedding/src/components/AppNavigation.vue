@@ -4,7 +4,7 @@
       <v-navigation-drawer
         app
         v-model="drawer"
-        class="brown lighten-2"
+        class="primary lighten-2"
         dark
         disable-resize-watcher
       >
@@ -20,12 +20,12 @@
         </v-list>
       </v-navigation-drawer>
     </template>
-    <v-toolbar app class="primary text-xs-center" dark>
+    <v-toolbar app class="primary text-xs-center" dark dense>
       <v-toolbar-side-icon
         class="hidden-md-and-up"
         @click="drawer = !drawer"
       ></v-toolbar-side-icon>
-      <v-layout justify-center>
+      <v-layout justify-center align-center>
         <v-spacer class="hidden-md-and-up"></v-spacer>
         <router-link to="/">
           <v-toolbar-title to="/">{{ appTitle }}</v-toolbar-title>
