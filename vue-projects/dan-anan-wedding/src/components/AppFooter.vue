@@ -8,13 +8,13 @@
       color="grey darken-2"
       class="hidden-sm-and-down py-3 text-xs-right white--text xs12"
     >
-      &copy;2018 — <strong>Vuetify</strong>
+      &copy;2019 — <strong>DanAn</strong>
     </v-flex>
     <v-flex
       color="grey darken-2"
       class="hidden-md-and-up py-3 text-xs-center white--text xs12"
     >
-      &copy;2018 — <strong>Vuetify</strong>
+      &copy;2019 — <strong>DanAn</strong>
     </v-flex>
   </v-footer>
 </template>
