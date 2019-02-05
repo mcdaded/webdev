@@ -41,6 +41,21 @@ export default new Router({
       path: '/#home-details',
       name: 'home-details',
       component: () => import('./components/HomeDetails.vue')
+    },
+    {
+      path: '/nest-grid',
+      name: 'nest-grid',
+      component: () => import('./views/ExNestGrid.vue')
+    },
+    {
+      path: '/card-test',
+      name: 'card-test',
+      component: () => import('./views/ExCardTest.vue')
+    },
+    {
+      path: '/data-table',
+      name: 'data-table',
+      component: () => import('./views/ExDataTable.vue')
     }
   ],
   scrollBehavior(to, from, savedPosition) {

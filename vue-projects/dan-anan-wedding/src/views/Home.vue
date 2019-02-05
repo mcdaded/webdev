@@ -1,13 +1,16 @@
 <template>
-  <v-container fluid>
-    <v-layout><h1>Home Page</h1></v-layout>
-  </v-container>
+  <span>
+    <home-hero></home-hero>
+  </span>
 </template>
 
 <script>
+import HomeHero from '@/components/HomeHero';
+
 export default {
   name: 'home',
+  components: {
+    HomeHero,
+  },
 };
 </script>
-
-<style scoped></style>
