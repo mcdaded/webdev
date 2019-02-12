@@ -17,6 +17,9 @@ Then added vuetify with
 vue add vuetify
 ```
 
+Interesting color theme builder here
+https://lobotuerto.com/thingies/vuetify-color-theme-builder/
+
 
 -----------------
 
