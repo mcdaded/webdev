@@ -1,12 +1,7 @@
 <template>
   <div id="navbar" class="navbar">
     <b-nav pills>
-      <b-nav-item active>Active</b-nav-item>
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
-      <b-nav-item>Link</b-nav-item>
-      <b-nav-item>Another Link</b-nav-item>
-      <b-nav-item disabled>Disabled</b-nav-item>
+      <b-navbar-brand pl-5 href="#">NavBar</b-navbar-brand>
     </b-nav>
   </div>
 </template>
@@ -19,6 +14,13 @@ export default {
 
 <style scoped>
 .navbar {
-  background-color: blue;
+  background-color: #383ac7;
+  float: none;
+  vertical-align: top;
+  text-align: center;
+}
+
+.nav-item {
+  background-color: white;
 }
 </style>
