@@ -17,5 +17,6 @@ export default {
 <style scoped>
 .forecast-submission-table {
   background-color: bisque;
+  height: 30rem;
 }
 </style>

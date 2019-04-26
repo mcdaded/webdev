@@ -1,9 +1,16 @@
 <template>
   <div class="home">
-    <b-container>
+    <b-container style="height: 420px; background-color: rgba(0,0,255,.1)">
+      <b-row>
+        <b-col>
+          <b-button v-on:click="click()">
+            Click for Calculator
+          </b-button>
+        </b-col>
+      </b-row>
       <b-row>
         <forecast-submission-table></forecast-submission-table>
-        <forecast-calculator></forecast-calculator>
+        <forecast-calculator v-if="showSide"></forecast-calculator>
       </b-row>
       <b-row>
         <b-col>
@@ -26,6 +33,25 @@ export default {
     HelloWorld,
     ForecastCalculator,
     ForecastSubmissionTable
+  },
+  data: function() {
+    return {
+      clicked: true
+    };
+  },
+  methods: {
+    click() {
+      if (this.clicked === true) {
+        this.clicked = false;
+      } else {
+        this.clicked = true;
+      }
+    }
+  },
+  computed: {
+    showSide() {
+      return this.clicked;
+    }
   }
 };
 </script>
