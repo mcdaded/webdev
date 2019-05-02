@@ -3280,6 +3280,11 @@ joi@^14.3.0:
     isemail "3.x.x"
     topo "3.x.x"
 
+jquery@x.*:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
+  integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
+
 js-message@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/js-message/-/js-message-1.0.5.tgz#2300d24b1af08e89dd095bc1a4c9c9cfcb892d15"
@@ -5088,9 +5093,17 @@ selfsigned@^1.10.4:
   dependencies:
     node-forge "0.7.5"
 
+semantic-ui-css@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/semantic-ui-css/-/semantic-ui-css-2.4.1.tgz#f5aea39fafb787cbd905ec724272a3f9cba9004a"
+  integrity sha512-Pkp0p9oWOxlH0kODx7qFpIRYpK1T4WJOO4lNnpNPOoWKCrYsfHqYSKgk5fHfQtnWnsAKy7nLJMW02bgDWWFZFg==
+  dependencies:
+    jquery x.*
+
 semantic-ui-vue@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/semantic-ui-vue/-/semantic-ui-vue-0.8.1.tgz#ee443cf4a8f664b1976f255d85efb3fcc4c27675"
+  integrity sha512-ewur0XLCjTI/LBFHFzFQWx5Ke7MhsndpjojL3G9p+FtgUCjERKjO3+jKTXsfUL40IajZkzr04R1Hpz1QJ9YD+w==
   dependencies:
     babel-helper-vue-jsx-merge-props "^2.0.2"
     babel-runtime "^6.26.0"
