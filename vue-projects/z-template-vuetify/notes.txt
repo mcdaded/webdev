@@ -1,0 +1,27 @@
+Based on a really good tutorial found here:
+https://medium.freecodecamp.org/how-to-build-a-single-page-application-using-vue-js-vuex-vuetify-and-firebase-838b40721a07
+
+
+Putting a few interesting links and pieces of information below
+- Vuetify colors: https://vuetifyjs.com/en/framework/colors
+- Vuetify icons: https://material.io/tools/icons/?style=baseline
+- Unsplash (open source images): https://unsplash.com
+
+
+running npm run lint is super cool too just to get everything set up with the
+right spacing and formatting. Seems better than beautify.
+
+
+I found a few different ways to deal with the font size issue while handling
+the responsive designs. This was probably overkill, but it was one of those
+things that just kinda bugged me until I could figure it out.
+
+Here is the spot I used to figure it out:
+https://www.smashingmagazine.com/2017/05/fluid-responsive-typography-css-poly-fluid-sizing/
+
+I ended up with the style vw modifier which was cool but I think I prefer using
+the header modifiers because it makes everything a bit easier to make responsive.
+
+Scrolling
+https://dev.to/napoleon039/the-lesser-known-amazing-things-vuerouter-can-do-25di
+https://router.vuejs.org/guide/advanced/scroll-behavior.html#async-scrolling
