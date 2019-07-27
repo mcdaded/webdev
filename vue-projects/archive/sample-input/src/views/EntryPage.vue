@@ -1,6 +1,6 @@
 <template>
   <div class="goal-entry">
-    <h1>Goals</h1>
+    <h1>Custom Goals</h1>
     <sui-grid :columns="1">
       <sui-grid-row>
         <sui-grid :columns="3">
@@ -8,30 +8,27 @@
             <sui-button primary>Enter Goals</sui-button>
           </sui-grid-column>
           <sui-grid-column>
-            <sui-button v-on:click="addColumn" secondary>Add Column</sui-button>
+            <sui-button v-on:click="columnCount++">Add Column</sui-button>
           </sui-grid-column>
           <sui-grid-column>
-            <sui-button v-on:click="addRow" secondary>Add Row</sui-button>
+            <sui-button v-on:click="rowCount++">Add Row</sui-button>
           </sui-grid-column>
         </sui-grid>
       </sui-grid-row>
       <sui-grid-row>
-        <sui-grid-column>
+        <sui-grid-column :width="8">
           <sui-table celled>
             <sui-table-header>
               <sui-table-row>
-                <sui-table-header-cell
-                  v-for="row in items"
-                  v-bind:key="row.title"
-                >
-                  <sui-input :placeholder="row.title" />
+                <sui-table-header-cell v-for="i in columnCount" v-bind:key="i">
+                  <sui-input style="width: 100%" />
                 </sui-table-header-cell>
               </sui-table-row>
             </sui-table-header>
             <sui-table-body>
-              <sui-table-row>
-                <sui-table-cell v-for="row in items" v-bind:key="row.title">
-                  <sui-input :placeholder="row.title" />
+              <sui-table-row v-for="i in rowCount" v-bind:key="i">
+                <sui-table-cell v-for="i in columnCount" v-bind:key="i">
+                  <sui-input style="width: 100%" />
                 </sui-table-cell>
               </sui-table-row>
             </sui-table-body>
@@ -47,7 +44,9 @@ export default {
   name: "goal-input",
   data() {
     return {
-      items: [{ id: 1, title: "Home" }, { id: 2, title: "Test" }]
+      items: [{ id: 1, title: "Home" }, { id: 2, title: "Test" }],
+      rowCount: 1,
+      columnCount: 2
     };
   },
   computed: {
