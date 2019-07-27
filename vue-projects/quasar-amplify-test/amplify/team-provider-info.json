@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "quasar-amplify-test-dev-20190725222117-authRole",
+            "UnauthRoleArn": "arn:aws:iam::594076534690:role/quasar-amplify-test-dev-20190725222117-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::594076534690:role/quasar-amplify-test-dev-20190725222117-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "quasar-amplify-test-dev-20190725222117-deployment",
+            "UnauthRoleName": "quasar-amplify-test-dev-20190725222117-unauthRole",
+            "StackName": "quasar-amplify-test-dev-20190725222117",
+            "StackId": "arn:aws:cloudformation:us-east-1:594076534690:stack/quasar-amplify-test-dev-20190725222117/0cc93900-af4c-11e9-b42f-0a55ab548dc0"
+        }
+    }
+}
