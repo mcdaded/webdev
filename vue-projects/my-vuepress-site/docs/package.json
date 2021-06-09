@@ -1,0 +1,19 @@
+{
+  "name": "my-vuepress-site",
+  "version": "0.0.1",
+  "description": "Simple and fun vuewpress sample",
+  "main": "index.js",
+  "authors": {
+    "name": "Dan",
+    "email": "danmcde@gmail.com"
+  },
+  "repository": "my-vuepress-site/my-vuepress-site",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
