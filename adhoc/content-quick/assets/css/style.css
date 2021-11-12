@@ -1,0 +1,79 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+*,
+*:before,
+*:after {
+  @apply box-border m-0;
+}
+
+/* BASE */
+h1 {
+  @apply text-4xl py-4 my-2 tracking-tight font-extrabold sm:text-5xl;
+}
+h2 {
+  @apply text-3xl py-2 my-1 tracking-tight font-bold sm:text-4xl;
+}
+h3 {
+  @apply text-2xl py-2 tracking-tight font-semibold sm:text-4xl;
+}
+h4 {
+  @apply text-xl py-1 tracking-tight font-semibold sm:text-4xl;
+}
+h5 {
+  @apply text-lg py-1 tracking-tight font-semibold sm:text-xl;
+}
+.container {
+  @apply max-w-7xl mx-auto px-12;
+}
+
+/* FORM FIELDS */
+/* .input-field {
+  @apply appearance-none block w-full rounded-md py-3 px-4 my-1 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-200 focus:border-primary-500;
+} */
+
+/* FORMAT TABLES */
+/* table {
+  @apply min-w-full table-auto;
+}
+thead {
+  @apply text-left w-full bg-secondary-50 text-primary-600;
+}
+tr {
+  @apply py-2 px-3;
+}
+tbody {
+  @apply divide-y divide-primary-100 text-secondary-800 text-opacity-80 whitespace-nowrap;
+} */
+
+/* ERROR AND PAGE TRANSITIONS */
+.page-enter-active,
+.page-leave-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.error-fade-enter-active,
+.error-fade-leave-active {
+  transition: opacity 0.6s;
+}
+.error-fade-enter, .error-fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+
+/* NAV LINKS */
+/* a.nuxt-link-active.navlink {
+  @apply bg-secondary-50 hover:bg-secondary-50 transition-colors border-green-500 border-l-8;
+}
+.logo-nav {
+  @apply !important bg-white hidden md:block outline-none border-none shadow-none; 
+} */
