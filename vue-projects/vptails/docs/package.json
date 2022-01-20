@@ -1,0 +1,25 @@
+{
+  "name": "vptails",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/vptails",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.0.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^2.2.19",
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.1"
+  }
+}
